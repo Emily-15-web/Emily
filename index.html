@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11"> 
-	<title>Rapunzel &#8211; Creaciones digitales</title>
+	<title>Emily &#8211; 15 Años</title>
 <meta name='robots' content='max-image-preview:large' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
 	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
@@ -264,7 +264,7 @@ width: 20px;
 height: 20px;
 position: fixed;
 bottom: 5px;
-right: 5px;
+right: 75px;
 z-index: 100;
 background-size: 30% 30%; 
 background-position: center; 
@@ -376,6 +376,214 @@ transition: transform 0.5s;
   }
 }
 		</style>
+<style>
+section.date-section {
+      text-align: center;
+      max-width: 400px;
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    section.date-section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Horizontal lines */
+    .line-top,
+    .line-middle,
+    .line-bottom {
+      border-top: 6px solid #d4aacd; /* Color rosa lila */
+      margin: 12px auto;
+      width: 300px;
+    }
+
+    .line-middle {
+      margin: 15px auto 20px auto;
+    }
+
+    /* Colors */
+    .purple-dark {
+      color: #5f1384 !important;
+    }
+
+    /* Upper text: MES */
+    .month {
+      font-size: 2.6rem;
+      font-weight: 600;
+      color: #5f1384 !important;
+      letter-spacing: 0.06em;
+      margin-top: 0;
+      margin-bottom: 6px;
+    }
+
+    /* Middle row container */
+    .middle-row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 14px;
+      font-weight: 600;
+    }
+
+    .day-text, 
+    .year-text {
+      font-size: 1.6rem;
+      color: #4b0082;
+      flex-basis: 25%;
+      text-align: center;
+    }
+
+    /* The big day number */
+    .day-number {
+      font-size: 7rem;
+      font-family: 'Segoe Script', cursive, sans-serif;
+      color: #d4aacd !important;
+      line-height: 1;
+      flex-basis: 50%;
+      text-align: center;
+      user-select: none;
+    }
+
+    /* Lower text */
+    .countdown-text {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #4b0082;
+      margin-top: 16px;
+      letter-spacing: 0.05em;
+      user-select: none;
+    }	
+
+
+	.countdown-section {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        .countdown-container {
+            background: transparent;
+            border-radius: 16px;
+        }
+        
+        .countdown-box {
+            background-color: transparent;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+        
+        .countdown-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .countdown-value {
+            font-size: clamp(2rem, 14vw, 4rem);
+            font-weight: 700;
+            color: #dcabd9 !important;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .countdown-label {
+            font-size: clamp(0.8rem, 3vw, 1rem);
+            color: #5f1384 !important;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .title {
+            font-size: clamp(1.5rem, 5vw, 2.5rem);
+            color: #5f1384 !important;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .subtitle {
+            font-size: clamp(1rem, 3vw, 1.2rem);
+            color: #dcabd9 !important;
+        }
+
+
+		.ubicacion-section {
+          padding: 0px 40px;
+      display: flex;
+      justify-content: center;
+      background-color: transparent;
+	      margin-bottom: 5em;
+    }
+	.ubicacion-section-2 {
+          padding: 0px 40px;
+      display: flex;
+      justify-content: center;
+      background-color: transparent;
+	      margin-bottom: 0em;
+    }
+    .ubicacion-button {
+      background-color: #d19cd9;
+      border-radius: 14px;
+      padding: 12px 42px;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+      color: white !important;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      text-decoration: none; /* For anchor */
+      display: inline-block;
+      user-select: none;
+    }
+
+    .ubicacion-button:hover,
+    .ubicacion-button:focus {
+      background-color: #c086d4;
+      box-shadow: 0 8px 20px rgba(209, 156, 217, 0.45);
+      outline: none;
+    }
+	.wp-block-uagb-advanced-heading.uagb-block-f55f5285 .uagb-heading-text {
+		font-size: 2em !important;
+	}
+	@media only screen and (max-width: 767px) {
+		.wp-block-uagb-container.uagb-block-3ad212a0::before {
+			top: 500px !important;
+			left: 65px;
+			width: calc(100% + 0px + 0px);
+			height: calc(100% + 0px + 0px);
+			background-position: 151px 151px;
+			background-size: 100%;
+			mix-blend-mode: normal;
+			background-image: url('https://idmeducacion.com/wp-content/uploads/2025/06/FLOR2.webp') !important;
+			background-clip: padding-box;
+			opacity: 0.25;
+		}
+	}
+	@media only screen and (max-width: 767px) {
+		.wp-block-uagb-container.uagb-block-3ad212a0 {
+			min-height: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+			margin-top: 0px !important;
+			margin-bottom: 0px !important;
+			margin-left: 0px;
+			margin-right: 0px;
+			order: initial;
+			background-position: 0px 884px !important;
+        	background-size: 20% !important;
+			background-image: url('https://idmeducacion.com/wp-content/uploads/2025/06/FLOR.webp') !important;
+			background-clip: padding-box;
+			flex-wrap: wrap;
+		}
+	}
+	@media only screen and (max-width: 767px) {
+		.wp-block-uagb-advanced-heading.uagb-block-3fc7fce1.wp-block-uagb-advanced-heading {
+			text-align: center !important;
+		}
+	}
+</style>
 		</head>
 
 <body itemtype='https://schema.org/WebPage' itemscope='itemscope' class="wp-singular page-template-default page page-id-18524 page-child parent-pageid-9374 wp-theme-astra ast-desktop ast-plain-container ast-no-sidebar astra-4.11.2 ast-single-post ast-replace-site-logo-transparent ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header">
@@ -430,7 +638,7 @@ class="post-18524 page type-page status-publish ast-article-single" id="post-185
 <div data-aos= "fade-up" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-container uagb-block-9afa1792 default uagb-is-root-container">
 <div data-aos= "fade-right" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-image uagb-block-ad5b7467 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img style="
     margin-top: -150px;
-    margin-left: 350px;
+    margin-left: 320px;
     width: 60px;
     height: 60px;
 " decoding="async" srcset="https://idmeducacion.com/wp-content/uploads/2025/06/FLOR.webp ,https://idmeducacion.com/wp-content/uploads/2025/06/FLOR.webp 780w, https://idmeducacion.com/wp-content/uploads/2025/06/FLOR.webp 360w" sizes="auto, (max-width: 480px) 150px" src="https://idmeducacion.com/wp-content/uploads/2025/06/FLOR.webp" alt="" class="uag-image-18066" width="615" height="298" title="rama y faro" loading="lazy" role="img"/></figure></div>
@@ -450,18 +658,67 @@ class="post-18524 page type-page status-publish ast-article-single" id="post-185
 
 
 
+
+
+
+<section class="date-section" id="dateSection" aria-label="Fecha Julio 4 de 2025">
+    <div class="line-top" aria-hidden="true"></div>
+    <h1 class="month purple-dark">JULIO</h1>
+    <div class="middle-row" role="group" aria-label="Día viernes 4 año 2025">
+      <div class="day-text purple-dark">VIERNES</div>
+      <div class="day-number" aria-live="polite" aria-atomic="true">04</div>
+      <div class="year-text purple-dark">2025</div>
+    </div>
+    <div class="line-middle" aria-hidden="true"></div>
+    <h2 class="countdown-text purple-dark">FALTAN</h2>
+</section>
+
+
+
+
+
+
+<section class="countdown-section px-4 md:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto">
+            <div class="countdown-container p-6 md:p-8">
+                <div class="grid grid-cols-3 gap-4 md:gap-6">
+                    <!-- Días -->
+                    <div class="countdown-box p-4 md:p-6 flex flex-col items-center justify-center">
+                        <div id="days" class="countdown-value">00</div>
+                        <div class="countdown-label mt-2">Días</div>
+                    </div>
+                    
+                    <!-- Horas -->
+                    <div class="countdown-box p-4 md:p-6 flex flex-col items-center justify-center">
+                        <div id="hours" class="countdown-value">00</div>
+                        <div class="countdown-label mt-2">Horas</div>
+                    </div>
+                    
+                    <!-- Minutos -->
+                    <div class="countdown-box p-4 md:p-6 flex flex-col items-center justify-center">
+                        <div id="minutes" class="countdown-value">00</div>
+                        <div class="countdown-label mt-2">Minutos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 <div class="wp-block-uagb-container uagb-block-862c4933">
 <div class="wp-block-uagb-container uagb-block-077b5fbc">
-<div data-aos= "fade-right" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-advanced-heading uagb-block-3fc7fce1"><h2 class="uagb-heading-text">Padres </h2></div>
-
-
-
-<div data-aos= "fade-up" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-advanced-heading uagb-block-b1bd206c"><h2 class="uagb-heading-text">y</h2></div>
-
-
-
-<div data-aos= "fade-right" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-advanced-heading uagb-block-72cd3a52"><h2 class="uagb-heading-text">Padrinos</h2></div>
-
+<div data-aos= "fade-right" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-advanced-heading uagb-block-3fc7fce1"><h2 class="uagb-heading-text">
+	<section class="ubicacion-section">
+    <a
+      href="https://www.google.com/maps"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="ubicacion-button"
+      >Ver Ubicación</a
+    >
+  </section>
+</h2></div>
 
 
 <div data-aos= "fade-up" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-advanced-heading uagb-block-6385ffab"><h2 class="uagb-heading-text"></h2></div>
@@ -527,17 +784,17 @@ background-size: 100% calc(2vw + 109px);
 
 <div class="wp-block-uagb-container uagb-layout-flex uagb-block-81168b7e alignfull uagb-is-root-container"><div class="uagb-container-inner-blocks-wrap">
 <div data-aos= "zoom-in" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-container uagb-layout-flex uagb-block-f1b8d7ab default uagb-is-root-container">
-<div data-aos= "fade-right" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-advanced-heading uagb-block-f55f5285"><h2 class="uagb-heading-text">Ya falta poco</h2></div>
+<div data-aos= "fade-right" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-advanced-heading uagb-block-f55f5285"><h2 class="uagb-heading-text">Itinerario de actividades</h2></div>
 
 
 
-<div class="wp-block-nk-awb nk-awb"><div class="nk-awb-wrap" data-awb-type="image" data-awb-image-background-size="contain" data-awb-image-background-position="36% 32%"><div class="nk-awb-inner" style="opacity: 0;"><img decoding="async" src="https://creacionesdigitales.org/wp-content/uploads/2024/09/marco-floral-nenufar-min.png" class="wp-image-10629 jarallax-img" width="640" height="326" srcset="https://creacionesdigitales.org/wp-content/uploads/2024/09/marco-floral-nenufar-min.png 640w, https://creacionesdigitales.org/wp-content/uploads/2024/09/marco-floral-nenufar-min-300x153.png 300w, https://creacionesdigitales.org/wp-content/uploads/2024/09/marco-floral-nenufar-min-500x255.png 500w" sizes="(max-width: 640px) 100vw, 640px" /></div></div><div class="nk-awb-wrap-content is-layout-constrained wp-container-nk-awb-is-layout-19e250f3 wp-block-awb-is-layout-constrained">
+<div class="wp-block-nk-awb nk-awb"><div class="nk-awb-wrap" data-awb-type="image" data-awb-image-background-size="contain" data-awb-image-background-position="36% 32%"><div class="nk-awb-inner" style="opacity: 0;"><img decoding="async" src="https://idmeducacion.com/wp-content/uploads/2025/06/TRAJES.webp" class="wp-image-10629 jarallax-img" width="640" height="326" srcset="https://idmeducacion.com/wp-content/uploads/2025/06/TRAJES.webp 640w, https://idmeducacion.com/wp-content/uploads/2025/06/TRAJES.webp 300w, https://idmeducacion.com/wp-content/uploads/2025/06/TRAJES.webp 500w" sizes="(max-width: 640px) 100vw, 640px" /></div></div><div class="nk-awb-wrap-content is-layout-constrained wp-container-nk-awb-is-layout-19e250f3 wp-block-awb-is-layout-constrained">
 <div class="wp-block-uagb-container uagb-block-229d343d">
 <div data-aos= "fade-right" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-image aligncenter uagb-block-9b7a7f76 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-center"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://creacionesdigitales.org/wp-content/uploads/2024/06/butterfly-animation-103.gif ,https://creacionesdigitales.org/wp-content/uploads/2024/06/butterfly-animation-103.gif 780w, https://creacionesdigitales.org/wp-content/uploads/2024/06/butterfly-animation-103.gif 360w" sizes="auto, (max-width: 480px) 150px" src="https://creacionesdigitales.org/wp-content/uploads/2024/06/butterfly-animation-103.gif" alt="" class="uag-image-5148" width="72" height="50" title="" loading="lazy" role="img"/></figure></div>
 
 
 
-<div class="wp-block-uagb-countdown uagb-block-81e6f2b5"><div class="wp-block-uagb-countdown__box wp-block-uagb-countdown__box-days"><div role="timer" aria-live="off" class="wp-block-uagb-countdown__time wp-block-uagb-countdown__time-days">&#8211;</div><div class="wp-block-uagb-countdown__label">Dias</div></div><div class="wp-block-uagb-countdown__box wp-block-uagb-countdown__box-hours"><div role="timer" aria-live="off" class="wp-block-uagb-countdown__time wp-block-uagb-countdown__time-hours">&#8211;</div><div class="wp-block-uagb-countdown__label">Horas</div></div><div class="wp-block-uagb-countdown__box wp-block-uagb-countdown__box-minutes"><div role="timer" aria-live="off" class="wp-block-uagb-countdown__time wp-block-uagb-countdown__time-minutes">&#8211;</div><div class="wp-block-uagb-countdown__label">Minutos</div></div><div class="wp-block-uagb-countdown__box wp-block-uagb-countdown__box-seconds"><div role="timer" aria-live="off" class="wp-block-uagb-countdown__time wp-block-uagb-countdown__time-seconds">&#8211;</div><div class="wp-block-uagb-countdown__label">Segundos</div></div></div>
+<div style="display: none;" class="wp-block-uagb-countdown uagb-block-81e6f2b5"><div class="wp-block-uagb-countdown__box wp-block-uagb-countdown__box-days"><div role="timer" aria-live="off" class="wp-block-uagb-countdown__time wp-block-uagb-countdown__time-days">&#8211;</div><div class="wp-block-uagb-countdown__label">Dias</div></div><div class="wp-block-uagb-countdown__box wp-block-uagb-countdown__box-hours"><div role="timer" aria-live="off" class="wp-block-uagb-countdown__time wp-block-uagb-countdown__time-hours">&#8211;</div><div class="wp-block-uagb-countdown__label">Horas</div></div><div class="wp-block-uagb-countdown__box wp-block-uagb-countdown__box-minutes"><div role="timer" aria-live="off" class="wp-block-uagb-countdown__time wp-block-uagb-countdown__time-minutes">&#8211;</div><div class="wp-block-uagb-countdown__label">Minutos</div></div><div class="wp-block-uagb-countdown__box wp-block-uagb-countdown__box-seconds"><div role="timer" aria-live="off" class="wp-block-uagb-countdown__time wp-block-uagb-countdown__time-seconds">&#8211;</div><div class="wp-block-uagb-countdown__label">Segundos</div></div></div>
 
 
 
@@ -564,7 +821,7 @@ background-size: 100% calc(2vw + 109px);
 
 
 
-<div class="wp-block-uagb-image uagb-block-86970be4 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://creacionesdigitales.org/wp-content/uploads/2025/06/SEPARADOR-b.webp ,https://creacionesdigitales.org/wp-content/uploads/2025/06/SEPARADOR-b.webp 780w, https://creacionesdigitales.org/wp-content/uploads/2025/06/SEPARADOR-b.webp 360w" sizes="auto, (max-width: 480px) 150px" src="https://creacionesdigitales.org/wp-content/uploads/2025/06/SEPARADOR-b.webp" alt="" class="uag-image-22357" width="250" height="35" title="" loading="lazy" role="img"/></figure></div>
+<div class="wp-block-uagb-image uagb-block-86970be4 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://idmeducacion.com/wp-content/uploads/2025/06/DESCARGAS-APP.webp ,https://idmeducacion.com/wp-content/uploads/2025/06/DESCARGAS-APP.webp 780w, https://idmeducacion.com/wp-content/uploads/2025/06/DESCARGAS-APP.webp 360w" sizes="auto, (max-width: 480px) 150px" src="https://idmeducacion.com/wp-content/uploads/2025/06/DESCARGAS-APP.webp" alt="" class="uag-image-22357" width="250" height="35" title="" loading="lazy" role="img"/></figure></div>
 
 
 
@@ -590,17 +847,17 @@ background-size: 100% calc(2vw + 109px);
 
 
 
-<div data-aos= "zoom-in" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-image aligncenter uagb-block-0ac0cb29 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-center"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://creacionesdigitales.org/wp-content/uploads/2024/08/pixelcut-export-1.jpeg.jpg ,https://creacionesdigitales.org/wp-content/uploads/2024/08/pixelcut-export-1.jpeg.jpg 780w, https://creacionesdigitales.org/wp-content/uploads/2024/08/pixelcut-export-1.jpeg.jpg 360w" sizes="auto, (max-width: 480px) 150px" src="https://creacionesdigitales.org/wp-content/uploads/2024/08/pixelcut-export-1.jpeg.jpg" alt="" class="uag-image-9230" width="284" height="206" title="" loading="lazy" role="img"/></figure></div>
+<div style="display: none;" data-aos= "zoom-in" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-image aligncenter uagb-block-0ac0cb29 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-center"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://idmeducacion.com/wp-content/uploads/2025/06/TRAJES.webp ,https://idmeducacion.com/wp-content/uploads/2025/06/TRAJES.webp 780w, https://idmeducacion.com/wp-content/uploads/2025/06/TRAJES.webp 360w" sizes="auto, (max-width: 480px) 150px" src="https://idmeducacion.com/wp-content/uploads/2025/06/TRAJES.webp" alt="" class="uag-image-9230" width="284" height="206" title="" loading="lazy" role="img"/></figure></div>
 
 
 
-<div data-aos= "zoom-in" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-container uagb-block-974c0f33 alignfull uagb-is-root-container"><div class="uagb-container-inner-blocks-wrap">
+<div style="display: none;" data-aos= "zoom-in" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-container uagb-block-974c0f33 alignfull uagb-is-root-container"><div class="uagb-container-inner-blocks-wrap">
 <div data-aos= "fade-right" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-advanced-heading uagb-block-b83e7ba5"><h2 class="uagb-heading-text">CELEBRACIÓN</h2></div>
 </div></div>
 
 
 
-<div class="wp-block-uagb-container uagb-block-20b888c4">
+<div style="display: none;" class="wp-block-uagb-container uagb-block-20b888c4">
 <div data-aos= "fade-up" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-advanced-heading uagb-block-3f31b0f8"><h2 class="uagb-heading-text">Av. Angelica Gamarra 254<br>Recepciones «Paraíso»<br>Los Olivos</h2></div>
 
 
@@ -610,14 +867,24 @@ background-size: 100% calc(2vw + 109px);
 
 
 
-<div data-aos= "fade-right" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-buttons uagb-buttons__outer-wrap uagb-btn__default-btn uagb-btn-tablet__default-btn uagb-btn-mobile__default-btn uagb-block-9fdef7f9"><div class="uagb-buttons__wrap uagb-buttons-layout-wrap ">
+<div style="display: none;" data-aos= "fade-right" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-buttons uagb-buttons__outer-wrap uagb-btn__default-btn uagb-btn-tablet__default-btn uagb-btn-mobile__default-btn uagb-block-9fdef7f9"><div class="uagb-buttons__wrap uagb-buttons-layout-wrap ">
 <div data-aos= "zoom-in" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-buttons-child uagb-buttons__outer-wrap uagb-block-f1a072cb wp-block-button"><div class="uagb-button__wrapper"><a class="uagb-buttons-repeater wp-block-button__link" aria-label="" href="https://maps.app.goo.gl/b2tEnawvyMcP6SSr9" rel="follow noopener" target="_blank" role="button"><span class="uagb-button__icon uagb-button__icon-position-before"><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 576 512" aria-hidden="true" focussable="false"><path d="M408 120C408 174.6 334.9 271.9 302.8 311.1C295.1 321.6 280.9 321.6 273.2 311.1C241.1 271.9 168 174.6 168 120C168 53.73 221.7 0 288 0C354.3 0 408 53.73 408 120zM288 152C310.1 152 328 134.1 328 112C328 89.91 310.1 72 288 72C265.9 72 248 89.91 248 112C248 134.1 265.9 152 288 152zM425.6 179.8C426.1 178.6 426.6 177.4 427.1 176.1L543.1 129.7C558.9 123.4 576 135 576 152V422.8C576 432.6 570 441.4 560.9 445.1L416 503V200.4C419.5 193.5 422.7 186.7 425.6 179.8zM150.4 179.8C153.3 186.7 156.5 193.5 160 200.4V451.8L32.91 502.7C17.15 508.1 0 497.4 0 480.4V209.6C0 199.8 5.975 190.1 15.09 187.3L137.6 138.3C140 152.5 144.9 166.6 150.4 179.8H150.4zM327.8 331.1C341.7 314.6 363.5 286.3 384 255V504.3L192 449.4V255C212.5 286.3 234.3 314.6 248.2 331.1C268.7 357.6 307.3 357.6 327.8 331.1L327.8 331.1z"></path></svg></span><div class="uagb-button__link">Ver ubicación</div></a></div></div>
 </div></div>
 
 
 
 <div data-aos= "fade-right" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-container uagb-block-919f8d16">
-<div class="wp-block-uagb-modal uagb-block-4334881f uagb-modal-wrapper sombra" data-escpress="enable" data-overlayclick="disable"><div class="uagb-spectra-button-wrapper wp-block-button"><a class="uagb-modal-button-link wp-block-button__link uagb-modal-trigger" href="#" onclick="return false;" target="_self" rel="noopener noreferrer"><span class="uagb-modal-content-wrapper"><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 336v-288C448 21.49 426.5 0 400 0H96C42.98 0 0 42.98 0 96v320c0 53.02 42.98 96 96 96h320c17.67 0 32-14.33 32-31.1c0-11.72-6.607-21.52-16-27.1v-81.36C441.8 362.8 448 350.2 448 336zM143.1 128h192C344.8 128 352 135.2 352 144C352 152.8 344.8 160 336 160H143.1C135.2 160 128 152.8 128 144C128 135.2 135.2 128 143.1 128zM143.1 192h192C344.8 192 352 199.2 352 208C352 216.8 344.8 224 336 224H143.1C135.2 224 128 216.8 128 208C128 199.2 135.2 192 143.1 192zM384 448H96c-17.67 0-32-14.33-32-32c0-17.67 14.33-32 32-32h288V448z"></path></svg><span class="uagb-inline-editing">CONFIRMAR ASISTENCIA</span></span></a></div><div class="uagb-effect-default uagb-modal-popup uagb-block-4334881f uagb-modal-type-undefined"><div class="uagb-modal-popup-wrap"><div class="uagb-modal-popup-content">
+<div class="wp-block-uagb-modal uagb-block-4334881f uagb-modal-wrapper sombra" data-escpress="enable" data-overlayclick="disable">
+<section class="ubicacion-section-2">
+    <a
+      href="https://www.google.com/maps"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="ubicacion-button"
+      >Confirmar asistencia</a
+    >
+  </section>	
+<div class="uagb-effect-default uagb-modal-popup uagb-block-4334881f uagb-modal-type-undefined"><div class="uagb-modal-popup-wrap"><div class="uagb-modal-popup-content">
 <div style="height:46px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
@@ -771,7 +1038,7 @@ body #wpforms-17089 {
 
 
 
-<div class="wp-block-uagb-container uagb-block-bd1171e8">
+<div style="display: none;" class="wp-block-uagb-container uagb-block-bd1171e8">
 <div data-aos= "slide-right" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-image uagb-block-56f4c9ab wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://creacionesdigitales.org/wp-content/uploads/2025/06/SEPARADOR-b.webp ,https://creacionesdigitales.org/wp-content/uploads/2025/06/SEPARADOR-b.webp 780w, https://creacionesdigitales.org/wp-content/uploads/2025/06/SEPARADOR-b.webp 360w" sizes="auto, (max-width: 480px) 150px" src="https://creacionesdigitales.org/wp-content/uploads/2025/06/SEPARADOR-b.webp" alt="" class="uag-image-22357" width="280" height="35" title="SEPARADOR b" loading="lazy" role="img"/></figure></div>
 
 
@@ -845,12 +1112,12 @@ body #wpforms-17089 {
 
 
 
-<div data-aos= "fade-up" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-advanced-heading uagb-block-8ee42af1"><h2 class="uagb-heading-text">Vivimos juntos la etapa de mi infancia&#8230;</h2></div>
+<div style="display: none;" data-aos= "fade-up" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-advanced-heading uagb-block-8ee42af1"><h2 class="uagb-heading-text">Vivimos juntos la etapa de mi infancia&#8230;</h2></div>
 </div></div>
 
 
 
-<div class="wp-block-uagb-container uagb-block-415bb5fc alignfull uagb-is-root-container">
+<div style="display: none;" class="wp-block-uagb-container uagb-block-415bb5fc alignfull uagb-is-root-container">
 <div style="height:6px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
@@ -956,7 +1223,7 @@ body #wpforms-17089 {
 
 
 
-<div class="wp-block-uagb-container uagb-block-574a2bb4"><div class="uagb-container__shape uagb-container__shape-top"><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none"><path class="uagb-container__shape-fill" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path><path class="uagb-container__shape-fill" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path><path class="uagb-container__shape-fill" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path></svg></div><div class="uagb-container__shape uagb-container__shape-bottom uagb-container__invert" data-negative="false"><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none"><path class="uagb-container__shape-fill" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path><path class="uagb-container__shape-fill" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path><path class="uagb-container__shape-fill" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path></svg></div>
+<div style="display: none;" class="wp-block-uagb-container uagb-block-574a2bb4"><div class="uagb-container__shape uagb-container__shape-top"><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none"><path class="uagb-container__shape-fill" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path><path class="uagb-container__shape-fill" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path><path class="uagb-container__shape-fill" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path></svg></div><div class="uagb-container__shape uagb-container__shape-bottom uagb-container__invert" data-negative="false"><svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none"><path class="uagb-container__shape-fill" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path><path class="uagb-container__shape-fill" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path><path class="uagb-container__shape-fill" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path></svg></div>
 <div class="wp-block-uagb-container uagb-block-7c36389f">
 <div data-aos= "fade-right" data-aos-duration="400" data-aos-delay="0" data-aos-easing="ease" data-aos-once="true" class="wp-block-uagb-image uagb-block-ae1a2b86 wp-block-uagb-image--layout-default wp-block-uagb-image--effect-static wp-block-uagb-image--align-none"><figure class="wp-block-uagb-image__figure"><img decoding="async" srcset="https://creacionesdigitales.org/wp-content/uploads/2025/06/4ra.webp ,https://creacionesdigitales.org/wp-content/uploads/2025/06/4ra.webp 780w, https://creacionesdigitales.org/wp-content/uploads/2025/06/4ra.webp 360w" sizes="auto, (max-width: 480px) 150px" src="https://creacionesdigitales.org/wp-content/uploads/2025/06/4ra.webp" alt="" class="uag-image-22464" width="300" height="380" title="" loading="lazy" role="img"/></figure></div>
 </div>
@@ -998,6 +1265,50 @@ body #wpforms-17089 {
 	</div> <!-- ast-container -->
 	</div><!-- #content -->
 	</div><!-- #page -->
+	<script src="https://cdn.tailwindcss.com"></script>
+ <script>
+	const targetDate = new Date('July 4, 2025 00:00:00').getTime();
+	function updateCountdown() {
+		const now = new Date().getTime();
+		const distance = targetDate - now;
+		const days = Math.floor(distance / (900 * 60 * 60 * 24));
+		const hours = Math.floor((distance % (900 * 60 * 60 * 24)) / (900 * 60 * 60));
+		const minutes = Math.floor((distance % (900 * 60 * 60)) / (900 * 60));
+		document.getElementById('days').innerText = days.toString().padStart(2, '0');
+		document.getElementById('hours').innerText = hours.toString().padStart(2, '0');
+		document.getElementById('minutes').innerText = minutes.toString().padStart(2, '0');
+		if (distance < 0) {
+			clearInterval(countdownInterval);
+			document.getElementById('days').innerText = '00';
+			document.getElementById('hours').innerText = '00';
+			document.getElementById('minutes').innerText = '00';
+		}
+	}
+	updateCountdown();
+	const countdownInterval = setInterval(updateCountdown, 1000);
+</script>
+<script>
+    // Scroll reveal animation for the date section
+    document.addEventListener('DOMContentLoaded', () => {
+      const section = document.getElementById('dateSection');
+
+      function revealOnScroll() {
+        const rect = section.getBoundingClientRect();
+        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+
+        // Show the section when the top of it reaches 75% of viewport height
+        if (rect.top <= windowHeight * 0.75) {
+          section.classList.add('visible');
+          window.removeEventListener('scroll', revealOnScroll);
+        }
+      }
+
+      window.addEventListener('scroll', revealOnScroll);
+
+      // Initial check in case already visible
+      revealOnScroll();
+    });
+  </script>
 <script type="speculationrules">
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/astra\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
